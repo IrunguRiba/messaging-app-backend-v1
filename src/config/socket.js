@@ -1,0 +1,8 @@
+/*
+Create socket server
+
+Configure CORS
+
+Attach socket handlers
+
+*/
