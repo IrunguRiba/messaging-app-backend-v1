@@ -2,6 +2,7 @@
 const express=require('express');
 const cors=require('cors');
 const router= require('./src/modules/auth/auth.routes');
+const userRouter=require('./src/modules/users/user.routes');
 
 
 
@@ -18,6 +19,7 @@ app.use(express.json());
 
 
 app.use('/api/auth', router);
+app.use('/api/users', userRouter);
 
 
 module.exports=app;
